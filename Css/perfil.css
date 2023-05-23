@@ -1,0 +1,529 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* outline: 2px solid red; */
+}
+
+
+.contenedor-imagen{
+    margin-top: 80px;
+}
+section{
+    width: 90%;
+    margin: auto;
+}
+section .imagen{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+}
+section .imagen .marco{
+    width: 45%;
+    margin: auto;
+    height: 100%;
+    border-radius: 50%;
+}
+section .imagen .marco img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+section .imagen .morado{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+section .imagen .morado2{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+section .imagen .morado3{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+
+section .imagen2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+}
+section .imagen2 .marco{
+    width: 45%;
+    margin: auto;
+    height: 100%;
+    border-radius: 50%;
+}
+section .imagen2 .marco img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+section .imagen2 .amarillo{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+section .imagen2 .amarillo2{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+section .imagen2 .amarillo3{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+.arriba{
+    width: 60%;
+    margin: auto;
+    height: 300px;
+}
+.arriba img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+#footer{
+    background-color: rgb(171, 106, 231);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    color: white;
+    font-size: 1.3em;
+    width: 100%;
+    padding: 30px;
+}
+#footer .izquierda i{
+    height: 20px;
+    margin: 15px;
+    color: #F5C600;
+    font-size: 2em;
+    align-items: center;
+}
+#footer .izquierda i{
+    scale: 1.3;
+}
+#footer .izquierda .fa-brands:hover{
+    scale: 1.6;
+}
+#footer .izquierda i:hover{
+    scale: 1.3;
+}
+#footer .marca{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#footer strong{
+    color: #F5C600;
+    font-size: 1.3em;
+}
+
+
+
+
+.boton{
+    background-color: #44ea61;
+    width: 105px;
+    height: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.boton img{
+    height: 70px;   
+}
+
+.atras{
+    background-color: rgb(241, 241, 241);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+
+.atras img{
+    height: 50px;
+}
+
+
+
+
+@media screen  and (max-width:700px) {
+    
+    .contenedor-imagen{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        padding: 0%;
+        font-size: 0.7em;
+    }
+    section{
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+    }
+    section .imagen{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 60%;
+        align-items: center;
+        margin: auto;
+    }
+    section .imagen .marco{
+        width: 100%;
+        margin: auto;
+        border-radius: 50%;
+    }       
+    section .imagen .marco img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    section .imagen .morado{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    section .imagen .morado2{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    section .imagen .morado3{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    
+    section .imagen2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 60%;
+        align-items: center;
+        margin: auto;
+    }
+    section .imagen2 .marco{
+        width: 100%;
+        margin: auto;
+        border-radius: 50%;
+    }
+    section .imagen2 .marco img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    section .imagen2 .amarillo{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    section .imagen2 .amarillo2{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    section .imagen2 .amarillo3{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+
+
+    #footer{
+        background-color: rgb(171, 106, 231);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: center;
+        color: white;
+        font-size: 0.8em;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    #footer .izquierda{
+        width: 100%;
+    }
+    #footer .derecha{
+        width: 100%;
+    }
+    #footer .izquierda i{
+        height: 20px;
+        margin: 15px;
+        color: #F5C600;
+        font-size: 2em;
+        align-items: center;
+    }
+    #footer .izquierda i{
+        scale: 1.3;
+    }
+    #footer .izquierda .fa-brands:hover{
+        scale: 1.6;
+    }
+    #footer .izquierda i:hover{
+        scale: 1.3;
+    }
+    #footer .marca{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #footer strong{
+        color: #F5C600;
+        font-size: 1.3em;
+    }
+
+    /*-------------------------------- BOTONES --------------------------------*/
+
+    .boton{
+        background-color: #44ea61;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 9999999999999;
+    }
+    .boton img{
+        height: 40px;
+        
+    }
+    
+    .atras{
+        background-color: rgb(241, 241, 241);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+    }
+    
+    .atras img{
+        height: 30px;
+    }
+}
+
+
+@media screen and (min-width:701px) and (max-width:1024px) {
+    section{
+        width: 90%;
+        margin: auto;
+        font-size: 0.9em;
+    }
+    section .imagen{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 60%;
+        align-items: center;
+        margin: auto;
+    }
+    section .imagen .marco{
+        width: 45%;
+        margin: auto;
+        height: 100%;
+        border-radius: 50%;
+    }
+    section .imagen .marco img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    section .imagen .morado{
+        width: 45%;
+        margin: auto;
+        text-align: center;
+    }
+    section .imagen .morado2{
+        width: 45%;
+        margin: auto;
+        text-align: center;
+    }
+    section .imagen .morado3{
+        width: 45%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    section .imagen2{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 60%;
+        align-items: center;
+        margin: auto;
+    }
+    section .imagen2 .marco{
+        width: 45%;
+        margin: auto;
+        height: 100%;
+        border-radius: 50%;
+    }
+    section .imagen2 .marco img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    section .imagen2 .amarillo{
+        width: 45%;
+        margin: auto;
+        text-align: center;
+    }
+    section .imagen2 .amarillo2{
+        width: 45%;
+        margin: auto;
+        text-align: center;
+    }
+    section .imagen2 .amarillo3{
+        width: 45%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    
+    
+    
+    .arriba{
+        width: 60%;
+        margin: auto;
+        height: 300px;
+    }
+    .arriba img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    
+    
+    
+    #footer{
+        background-color: rgb(171, 106, 231);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: center;
+        color: white;
+        font-size: 1.1em;
+        width: 100%;
+        padding: 30px;
+    }
+    #footer .izquierda i{
+        height: 20px;
+        margin: 15px;
+        color: #F5C600;
+        align-items: center;
+        font-size: 1.2em;
+    }
+    #footer .izquierda i{
+        scale: 1.3;
+    }
+    #footer .izquierda .fa-brands:hover{
+        scale: 1.6;
+    }
+    #footer .izquierda i:hover{
+        scale: 1.3;
+    }
+    #footer .marca{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+    #footer strong{
+        color: #F5C600;
+        font-size: 1.1em;
+    }
+    
+    
+    
+    
+    .boton{
+        background-color: #44ea61;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+    .boton img{
+        height: 50px;   
+    }
+    
+    .atras{
+        background-color: rgb(241, 241, 241);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+    }
+    
+    .atras img{
+        height: 30px;
+    }
+}
